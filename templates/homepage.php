@@ -99,7 +99,7 @@
             <div class="card fundraise-item">
               <a href="#"><img class="card-img-top" src="images/img_1.jpg" alt="Image placeholder"></a>
               <div class="card-body">
-                <h3 class="card-title"><a href="#"><?php echo htmlspecialchars($article->title) ?></a></h3>
+                <h3 class="card-title"><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>"><?php echo htmlspecialchars($article->title) ?></a></h3>
                 <p class="card-text"><?php echo htmlspecialchars($article->summary) ?></p>
                 <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
                 <div class="progress custom-progress-success">
