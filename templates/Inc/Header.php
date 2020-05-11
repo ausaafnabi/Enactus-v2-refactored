@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="how-it-works.html" class="nav-link">How We Works</a></li>
+          <li class="nav-item"><a href=".?action=WhatWeDo" class="nav-link">How We Works</a></li>
           <li class="nav-item"><a href="donate.html" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Sucess Stories</a></li>

@@ -10,6 +10,9 @@ switch ( $action ) {
   case 'viewArticle':
     viewArticle();
     break;
+  case 'WhatWeDo':
+	WhatWeDo();
+	break;
   default:
     homepage();
 }
@@ -36,6 +39,9 @@ function viewArticle() {
   require( TEMPLATE_PATH . "/viewArticle.php" );
 }
 
+function WhatWeDo(){
+		require(TEMPLATE_PATH . "/WhatWeDo.php");
+}
 function homepage() {
   $results = array();
   $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
