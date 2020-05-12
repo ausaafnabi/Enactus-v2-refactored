@@ -2,12 +2,12 @@
 
 <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 block-30-sm item" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 block-30-sm item" style="background-image: url('images/07-min.JPG');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
               <h2 class="heading mb-5">We Believe in Social Entrepreneurship.</h2>
-              <p style="display: inline-block;"><a href="https://vimeo.com/channels/staffpicks/93951774"  data-fancybox class="ftco-play-video d-flex"><span class="play-icon-wrap align-self-center mr-4"><span class="ion-ios-play"></span></span> <span class="align-self-center">Watch Video</span></a></p>
+              <p style="display: inline-block;"><a href="https://youtu.be/H3gDZgewJGY"  data-fancybox class="ftco-play-video d-flex"><span class="play-icon-wrap align-self-center mr-4"><span class="ion-ios-play"></span></span> <span class="align-self-center">Watch Video</span></a></p>
             </div>
           </div>
         </div>
@@ -101,11 +101,11 @@
               <div class="card-body">
                 <h3 class="card-title"><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>"><?php echo htmlspecialchars($article->title) ?></a></h3>
                 <p class="card-text"><?php echo htmlspecialchars($article->summary) ?></p>
-                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <span class="donation-time mb-3 d-block">Date: <?php ?></span>
                 <div class="progress custom-progress-success">
                   <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+                <span class="fund-raised d-block">IMPACT</span>
               </div>
             </div>
 

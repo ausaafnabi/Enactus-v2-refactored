@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" style="padding-bottom: 0px;padding-top: 4em;">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-6 col-lg-4">
@@ -8,17 +8,17 @@
           <p><a href="#" class="link-underline">Read  More</a></p>
         </div>
         <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">Recent Blog</h3>
+          <h3 class="heading-section">Articles</h3>
           <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
               <img src="images/img_1.jpg" alt="" class="img-fluid">
             </figure>
             <div class="text">
-              <h3 class="heading"><a href="#">Water Is Life. Clean Water In Urban Area</a></h3>
+              <h3 class="heading"><a href="#">Article 1</a></h3>
               <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> May 05, 2020</a></div>
+                <div><a href="#"><span class="icon-person"></span>Admin</a></div>
+                <div><a href="#"><span class="icon-chat"></span> 5</a></div>
               </div>
             </div>
           </div>
@@ -28,25 +28,11 @@
               <img src="images/img_2.jpg" alt="" class="img-fluid">
             </figure>
             <div class="text">
-              <h3 class="heading"><a href="#">Life Is Short So Be Kind</a></h3>
+              <h3 class="heading"><a href="#">Article 2</a></h3>
               <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> May 10, 2020</a></div>
                 <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_4.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="#">Unfortunate Children Need Your Love</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                <div><a href="#"><span class="icon-chat"></span> 6</a></div>
               </div>
             </div>
           </div>
@@ -55,8 +41,8 @@
           <div class="block-23">
             <h3 class="heading-section">Get Connected</h3>
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                <li><span class="icon icon-map-marker"></span><span class="text">Benito Juarez Marg, South Campus, Anand Niketan, New Delhi, Delhi 110021</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 93xxxxxxx1</span></a></li>
                 <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
               </ul>
             </div>
@@ -66,13 +52,9 @@
       </div>
       <div class="row pt-5">
         <div class="col-md-12 text-center">
-          
             <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved with Enactus Aryabhatta</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
-          
         </div>
       </div>
     </div>

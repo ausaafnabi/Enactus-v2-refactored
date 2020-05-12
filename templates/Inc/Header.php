@@ -1,3 +1,10 @@
+<?php
+	$page = "";
+	if(isset($_GET["page"]) && $_GET["page"] != "") {
+		$page = $_GET["page"];
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,15 +33,15 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img style="height: 100px;" src="images/white-trans.png" alt="Image placeholder"></a>
+      <a class="navbar-brand" href="index.php"><img style="height: 100px;" src="images/white-trans.png" alt="Image placeholder"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> 
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href=".?action=WhatWeDo" class="nav-link">How We Works</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false){ echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href="index.php" class="nav-link">Home</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'WhatWeDo') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=WhatWeDo" class="nav-link">How We Works</a></li>
           <li class="nav-item"><a href="donate.html" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Sucess Stories</a></li>
