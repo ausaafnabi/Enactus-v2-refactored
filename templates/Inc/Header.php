@@ -41,12 +41,11 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false){ echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href="index.php" class="nav-link">Home</a></li>
-          <li <?php if (stripos($_SERVER['REQUEST_URI'],'WhatWeDo') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=WhatWeDo" class="nav-link">How We Works</a></li>
-          <li class="nav-item"><a href="donate.html" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Sucess Stories</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'WhatWeDo') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=WhatWeDo" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="donate.html" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Project</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact US</a></li>
         </ul>
       </div>
     </div>
