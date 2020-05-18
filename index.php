@@ -10,8 +10,11 @@ switch ( $action ) {
   case 'viewArticle':
     viewArticle();
     break;
-  case 'WhatWeDo':
-	WhatWeDo();
+  case 'About':
+	About();
+	break;
+  case 'Team':
+	Team();
 	break;
   default:
     homepage();
@@ -39,8 +42,11 @@ function viewArticle() {
   require( TEMPLATE_PATH . "/viewArticle.php" );
 }
 
-function WhatWeDo(){
+function About(){
 		require(TEMPLATE_PATH . "/WhatWeDo.php");
+}
+function Team(){
+		require(TEMPLATE_PATH . "/Team.php");
 }
 function homepage() {
   $results = array();
