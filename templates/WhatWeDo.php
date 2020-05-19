@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
-              <h2 class="heading mb-5">What We Do. "OR ANY SUITABLE ARTICLE"</h2>
+              <h2 class="heading mb-5">About Us</h2>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
 				</div>
 				
 				<div class="col-md-6" style="padding-left:0px;">
-				<p class="lead" style="margin-bottom=0.1rem;">Enactus Aryabhatta is a staunch proponent of transforming and nurturing entrepreneurial action because we solemnly believe in the dictum,<blockquote class="blockquote">"We rise by lifting others."</blockquote></p>   
+				<p class="lead" style="margin-bottom=0.1rem;">Enactus Aryabhatta is a staunch proponent of transforming and nurturing entrepreneurial action because we solemnly believe in the dictum,<blockquote class="blockquote blockquote-reverse">"We rise by lifting others."</blockquote></p>   
 				</div>
 
 		</div>
