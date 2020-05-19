@@ -16,6 +16,15 @@ switch ( $action ) {
   case 'Team':
 	Team();
 	break;
+  case 'Projects':
+	Projects();
+	break;
+  case 'Palaash':
+	Palaash();
+	break;
+  case 'Suvidha':
+	Suvidha();
+	break;
   default:
     homepage();
 }
@@ -43,11 +52,21 @@ function viewArticle() {
 }
 
 function About(){
-		require(TEMPLATE_PATH . "/WhatWeDo.php");
+	require(TEMPLATE_PATH . "/WhatWeDo.php");
 }
 function Team(){
-		require(TEMPLATE_PATH . "/Team.php");
+	require(TEMPLATE_PATH . "/Team.php");
 }
+function Projects(){
+	require(TEMPLATE_PATH . "/Projects.php");
+}
+function Palaash(){
+	require(TEMPLATE_PATH . "/Projects/Palaash.php");
+}
+function Suvidha(){
+	require(TEMPLATE_PATH . "/Projects/Suvidha.php");
+}
+
 function homepage() {
   $results = array();
   $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
