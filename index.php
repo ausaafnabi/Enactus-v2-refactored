@@ -25,6 +25,9 @@ switch ( $action ) {
   case 'Suvidha':
 	Suvidha();
 	break;
+  case 'Utkarsh':
+	Utkarsh();
+	break;
   default:
     homepage();
 }
@@ -65,6 +68,9 @@ function Palaash(){
 }
 function Suvidha(){
 	require(TEMPLATE_PATH . "/Projects/Suvidha.php");
+}
+function Utkarsh(){
+	require(TEMPLATE_PATH . "/Projects/Utkarsh.php");
 }
 
 function homepage() {
