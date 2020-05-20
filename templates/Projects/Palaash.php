@@ -55,7 +55,7 @@
 			</ul>
 		  </div>  
 		  <div class="col-md-12 mb-2">
-			<h2>Business Models</h2>
+			<h2>Business Model</h2>
             <p class="lead">At Enactus Aryabhatta, to meet the triple bottom line is our holy grail. It is with this dynamism that we came up with Project Palaash. Under Palaash, our entrepreneurial action is cost-effective as well as sustainable. Palaash operates under a threefold business model</p>  
 		  </div> 
 			<div class="col-md-4 mb-3">
