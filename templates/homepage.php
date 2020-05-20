@@ -53,7 +53,7 @@
           <div class="media block-6">
             <div class="icon"><span class="ion-ios-bulb"></span></div>
             <div class="media-body">
-              <h3 class="heading">Our Mission</h3>
+              <h3 class="heading">About Us</h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="#" class="link-underline">Learn More</a></p>
             </div>
@@ -62,9 +62,9 @@
 
         <div class="col-md-4">
           <div class="media block-6">
-            <div class="icon"><span class="ion-ios-cash"></span></div>
+            <div class="icon"><span class="ion-ios-images"></span></div>
             <div class="media-body">
-              <h3 class="heading">Make Donations</h3>
+              <h3 class="heading">Gallery</h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="#" class="link-underline">Learn More</a></p>
             </div>
@@ -75,7 +75,7 @@
           <div class="media block-6">
             <div class="icon"><span class="ion-ios-contacts"></span></div>
             <div class="media-body">
-              <h3 class="heading">We Need Volunteers</h3>
+              <h3 class="heading">Team</h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
               <p><a href="#" class="link-underline">Learn More</a></p>
             </div>

@@ -1,43 +1,7 @@
-<footer class="footer" >
+<footer class="footer" style="padding-bottom:1em;background:#000;">
     <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">About Us</h3>
-          <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-          <p class="mb-5">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p><a href="#" class="link-underline">Read  More</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">Articles</h3>
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_1.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="#">Article 1</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> May 05, 2020</a></div>
-                <div><a href="#"><span class="icon-person"></span>Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 5</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_2.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="#">Article 2</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> May 10, 2020</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 6</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
+      <div class="row mb-2">
+		<div class="col-xl-3 col-md-6 col-lg-3">
           <div class="block-23">
             <h3 class="heading-section">Get Connected</h3>
               <ul>
@@ -46,17 +10,44 @@
                 <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
               </ul>
             </div>
+        </div>   
+        <div class="col-xl-3 col-md-6 col-lg-3">
+			<div class="block-23">
+			<h3 class="heading-section">Quick Links</h3>
+				<ul class="links mb-1">
+					<li class="mb-1"><a href="#">Team</a></li>
+					<li class="mb-1"><a href="#">Project</a></li>
+					<li class="mb-1"><a href="#">Gallery</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
         </div>
-        
-        
+        <div class="col-xl-3 col-md-6 col-lg-3">
+			<div class="block-23">
+			<h3 class="heading-section">Projects</h3>
+				<ul class="links mb-1">
+					<li class="mb-1"><a href=".?action=Palaash">Palaash</a></li>
+					<li class="mb-1"><a href=".?action=Suvidha">Suvidha</a></li>
+					<li><a href=".?action=Utkarsh">Utkarsh</a></li>
+				</ul>
+			</div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-lg-3" style="margin-top: -40px">
+          <a href="enactus.org"><img src="images/headquarter-logo.png" style="max-width:50%;height=auto;margin-bottom:40px"></a>
+          <div class="block-23">
+			<ul>
+				<li><span class="icon icon-map-marker"></span><span class="text">Springfield, Missouri, United States</span></li>
+			</ul>
+		  </div>
       </div>
-      <div class="row pt-5">
-        <div class="col-md-12 text-center">
+      <div class="col-md-12">
+		<div style="border-top:1px solid #e0e0e0;padding-bottom:20px;"></div>
+      </div>
+        <div class="col-md-12 text-center justify-content-center">
             <p>
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved with Enactus Aryabhatta</a>
             </p>
         </div>
-      </div>
     </div>
   </footer>
 
