@@ -45,7 +45,7 @@
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Team') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Team" class="nav-link">Team</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Projects') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Projects" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact US</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'Contact') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Contact" class="nav-link">Contact Us</a></li>
         </ul>
       </div>
     </div>

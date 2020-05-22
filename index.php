@@ -16,6 +16,9 @@ switch ( $action ) {
   case 'Team':
 	Team();
 	break;
+  case 'Contact':
+	Contact();
+	break;
   case 'Projects':
 	Projects();
 	break;
@@ -59,6 +62,9 @@ function About(){
 }
 function Team(){
 	require(TEMPLATE_PATH . "/Team.php");
+}
+function Contact(){
+	require(TEMPLATE_PATH . "/Contact.php");
 }
 function Projects(){
 	require(TEMPLATE_PATH . "/Projects.php");
