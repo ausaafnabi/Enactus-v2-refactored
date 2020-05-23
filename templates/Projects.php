@@ -55,7 +55,7 @@
       	<div class="card mb-4 text-white" style="max-width: 1200px;background:#f27506;color:#fff;margin:1rem;">
 		<div class="row no-gutters">
 			<div class="col-md-3" style="background:#fff;">
-				<img class="img-responsive" style="width:100%;height:100%;" src="images/palaash.png" alt="Card image cap">
+				<img class="img-responsive" style="width:100%;height:100%;" src="images/thumbnail/Utkarsh.jpeg" alt="Card image cap">
 			</div>
 		<div class="col-md-8">
 			<div class="card-body">
