@@ -31,6 +31,9 @@ switch ( $action ) {
   case 'Utkarsh':
 	Utkarsh();
 	break;
+  case 'SuccessStories':
+	Story();
+	break;
   default:
     homepage();
 }
@@ -78,7 +81,14 @@ function Suvidha(){
 function Utkarsh(){
 	require(TEMPLATE_PATH . "/Projects/Utkarsh.php");
 }
-
+function Story() {
+  $results = array();
+  $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
+  $results['articles'] = $data['results'];
+  $results['totalRows'] = $data['totalRows'];
+  $results['pageTitle'] = "Stories";
+  require( TEMPLATE_PATH . "/Story.php" );
+}
 function homepage() {
   $results = array();
   $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
