@@ -39,14 +39,13 @@
         
         </div>
 
-        <div class="col-md-6" id="map"></div>
+        <div class="col-md-6">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14014.79392071179!2d77.1621614!3d28.5788156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x17699e9de4def852!2sAryabhatta%20College%2C%20University%20Of%20Delhi!5e0!3m2!1sen!2sin!4v1590246927958!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
       </div>
     </div>
   </div>
 
-  </div>
- </div>
-</div>  
 
 
 <?php include 'Inc/Footer.php' ?>

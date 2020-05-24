@@ -7,7 +7,7 @@
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">Benito Juarez Marg, South Campus, Anand Niketan, New Delhi, Delhi 110021</span></li>
                 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 93xxxxxxx1</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                <li><a href="mailto:enactusaryabhatta@gmail.com"><span class="icon icon-envelope"></span><span class="text">enactusaryabhatta@gmail.com</span></a></li>
               </ul>
             </div>
         </div>   
@@ -15,10 +15,10 @@
 			<div class="block-23">
 			<h3 class="heading-section">Quick Links</h3>
 				<ul class="links mb-1">
-					<li class="mb-1"><a href="#">Team</a></li>
-					<li class="mb-1"><a href="#">Project</a></li>
-					<li class="mb-1"><a href="#">Gallery</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li class="mb-1"><a href=".?action=Team">Team</a></li>
+					<li class="mb-1"><a href=".?action=Projects">Project</a></li>
+					<li class="mb-1"><a href=".?action=SuccessStories">Success Stories</a></li>
+					<li><a href=".?action=Contact">Contact Us</a></li>
 				</ul>
 			</div>
         </div>
@@ -33,7 +33,7 @@
 			</div>
         </div>
         <div class="col-xl-3 col-md-6 col-lg-3" style="margin-top: -40px">
-          <a href="enactus.org"><img src="images/headquarter-logo.png" style="max-width:50%;height=auto;margin-bottom:40px"></a>
+          <a href="https://enactus.org/"><img src="images/headquarter-logo.png" style="max-width:50%;height=auto;margin-bottom:40px"></a>
           <div class="block-23">
 			<ul>
 				<li><span class="icon icon-map-marker"></span><span class="text">Springfield, Missouri, United States</span></li>
