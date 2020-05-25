@@ -37,8 +37,8 @@
         </div>
         <div class="col-md-6 welcome-text">
           <h2 class="display-4 mb-3">Who Are We?</h2>
-          <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+          <p class="lead">Enactus Aryabhatta is a society has worked towards bringing about a formidable change in the lives of various under-privileged sections of the society while concurrently developing entrepreneurial leaders and social innovators of tomorrow.</p>
+          <p class="mb-4">With a team of 60+ students, academic and business leaders, we have consolidated the essence of Enactus, to create a better, more sustainable world through our diverse community outreach projects. </p>
           <p class="mb-0"><a href=".?action=About" class="btn btn-primary px-3 py-2">Learn More</a></p>
         </div>
       </div>
@@ -54,7 +54,7 @@
             <div class="icon"><span class="ion-ios-bulb"></span></div>
             <div class="media-body">
               <h3 class="heading">About Us</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p>Enactus is a network of global business, academic and student leaders is unified by its vision- to create a better, more sustainable world.</p>
               <p><a href=".?action=About" class="link-underline">Learn More</a></p>
             </div>
           </div>     
@@ -65,7 +65,7 @@
             <div class="icon"><span class="ion-ios-images"></span></div>
             <div class="media-body">
               <h3 class="heading">Success Stories</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p>Glimpse of our Journey from the motivation to the development and Impact of our Projects.</p>
               <p><a href=".?action=SuccessStories" class="link-underline">Learn More</a></p>
             </div>
           </div>  
@@ -76,7 +76,7 @@
             <div class="icon"><span class="ion-ios-contacts"></span></div>
             <div class="media-body">
               <h3 class="heading">Team</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p>Our team, at Enactus Aryabhatta, strive tremendously to achieve the target of 17 Sustainable Development Goals set by the United Nations.</p>
               <p><a href=".?action=Team" class="link-underline">Learn More</a></p>
             </div>
           </div> 
@@ -91,8 +91,8 @@
       <div class="row mb-3 justify-content-center">
         <div class="col-md-8 text-center">
           <h2>Projects</h2>
-          <p class="lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <p><a href=".?action=Projects" class="link-underline">View All Projects</a></p>
+          <p class="lead">A Brief Insight on the projects we are striving to create impact with.</p>
+          <p><a href=".?action=Projects" class="link-underline">View Projects</a></p>
         </div>
       </div>
     </div>

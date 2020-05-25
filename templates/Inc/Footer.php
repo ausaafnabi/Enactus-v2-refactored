@@ -32,7 +32,7 @@
 				</ul>
 			</div>
         </div>
-        <div class="col-xl-3 col-md-6 col-lg-3" style="margin-top: -40px">
+        <div class="col-xl-3 col-md-6 col-lg-3" style="margin-top: -30px">
           <a href="https://enactus.org/"><img src="images/headquarter-logo.png" style="max-width:50%;height=auto;margin-bottom:40px"></a>
           <div class="block-23">
 			<ul>
