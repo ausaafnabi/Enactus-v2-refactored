@@ -21,6 +21,22 @@
 	<div class="col-md-12 md-5">
 		<h1>Ongoing Projects : </h1>
 	</div>
+	
+   	<div class="card mb-4 text-white" style="max-width: 1200px;background:#f27506;color:#fff;margin:1rem;">
+		<div class="row no-gutters">
+			<div class="col-md-3" style="background:#fff;">
+				<img class="img-responsive" style="width:100%;height:100%;" src="images/thumbnail/Utkarsh.jpeg" alt="Card image cap">
+			</div>
+		<div class="col-md-8">
+			<div class="card-body">
+				<h3 class="card-title" style="color:#fff;">Project Utkarsh</h3>
+				<p class="card-text">Project Utkarsh simultaneously tackles the problems including Gender Bias, Food Wastage and Surge of Fast Food Consumption by employing underprivileged women and utilising the unused portions of fruits and vegetables procured from juice shops or Safal outlets to produce healthy chips, preventing food wastage and generating a healthier snacking alternative taking into consideration the rise in health issues of the consumers. </p>
+				<a class="btn btn-light" href=".?action=Utkarsh" role="button">More...</a>
+			</div>
+		</div>
+	   </div>
+      </div>
+
 
 	<div class="card mb-4 text-white" style="max-width: 1200px;background:#d72980;color:#fff;margin:1rem;">
 		<div class="row no-gutters">
@@ -52,20 +68,6 @@
 	   </div>
       </div>
       
-      	<div class="card mb-4 text-white" style="max-width: 1200px;background:#f27506;color:#fff;margin:1rem;">
-		<div class="row no-gutters">
-			<div class="col-md-3" style="background:#fff;">
-				<img class="img-responsive" style="width:100%;height:100%;" src="images/palaash.png" alt="Card image cap">
-			</div>
-		<div class="col-md-8">
-			<div class="card-body">
-				<h3 class="card-title" style="color:#fff;">Project Utkarsh</h3>
-				<p class="card-text">Project Utkarsh simultaneously tackles the problems including Gender Bias, Food Wastage and Surge of Fast Food Consumption by employing underprivileged women and utilising the unused portions of fruits and vegetables procured from juice shops or Safal outlets to produce healthy chips, preventing food wastage and generating a healthier snacking alternative taking into consideration the rise in health issues of the consumers. </p>
-				<a class="btn btn-light" href=".?action=Utkarsh" role="button">More...</a>
-			</div>
-		</div>
-	   </div>
-      </div>
 
   </div>
  </div>

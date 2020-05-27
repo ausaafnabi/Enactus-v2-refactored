@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-12">
-              <h2 class="heading mb-5">Team Members</h2>
+              <h2 class="heading mb-5">TEAM</h2>
             </div>
           </div>
         </div>
