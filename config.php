@@ -23,19 +23,21 @@
  */
 	ini_set("display_errors", true);
 	date_default_timezone_set("Asia/Calcutta");	
-	define("DB_DSN","mysql:host=sql213.epizy.com;dbname=epiz_25857839_enactusAryabhatta");
-	define("DB_USERNAME", "epiz_25857839");
-	define("DB_PASSWORD","H5AhZ0gO7b");
+	define("DB_DSN","mysql:host=root;dbname=enactusAryabhatta");
+	define("DB_USERNAME", "root");
+	define("DB_PASSWORD","A");
 	define("CLASS_PATH","classes");
 	define("TEMPLATE_PATH","templates");
 	define("HOMEPAGE_NUM_ARTICLES",5);
 	define("ADMIN_USERNAME","admin");
 	define("ADMIN_PASSWORD","password");
 	require(CLASS_PATH."/Article.php");
+	#require(CLASS_PATH."/Media.php");
 	
 	function handleException($exception){
 		echo "a Problem Occurred. Please Try later!";
 		error_log($exception->getMessage());
+		
 	}
 	
 	set_exception_handler('handleException');

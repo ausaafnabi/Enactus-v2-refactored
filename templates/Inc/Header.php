@@ -52,6 +52,7 @@
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false){ echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href="index.php" class="nav-link">Home</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'About') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=About" class="nav-link">About Us</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Team') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Team" class="nav-link">Team</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'Media') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Media" class="nav-link">Media</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Projects') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Projects" class="nav-link">Projects</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'SuccessStories') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=SuccessStories" class="nav-link">Success Stories</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Contact') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Contact" class="nav-link">Contact Us</a></li>

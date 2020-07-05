@@ -4,15 +4,6 @@ require( "config.php" );
 session_start();
 $action = isset( $_GET['action'] ) ? $_GET['action'] : "";
 $username = isset( $_SESSION['username'] ) ? $_SESSION['username'] : "";
-login();
-
-function handleException($exception){
-		echo "a Problem Occurred. Please Try later!";
-		echo $exception->getMessage();
-		
-}
-	
-set_exception_handler('handleException');
 
 if ( $action != "login" && $action != "logout" && !$username ) {
   login();
@@ -244,14 +235,6 @@ function listArticles() {
 
   require( TEMPLATE_PATH . "/admin/listArticles.php" );
 }
-
-function handleException($exception){
-		echo "a Problem Occurred. Please Try later!";
-		echo $exception->getMessage();
-		
-	}
-	
-	set_exception_handler('handleException');
 
 ?>
 
