@@ -2,7 +2,7 @@
 
 <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 block-30-sm item" style="background-image: url('images/DSC_0097.JPG');" data-stellar-background-ratio="0.5">
+      <div class="block-30 block-30-sm item" style="background-image: url('images/success_2.jpeg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
@@ -23,7 +23,7 @@
 				<p class="lead">Enactus Aryabhatta was established in 2016. Since its inception, the society has worked towards bringing about a formidable change in the lives of various under-privileged sections of the society while concurrently developing entrepreneurial leaders and social innovators of tomorrow. With a team of 60+ students, academic and business leaders, we have consolidated the essence of Enactus, to create a better, more sustainable world through our diverse community outreach projects.</p>
 			</div>
 			<div class="col-md-6" >
-				<p class="lead">Enactus Aryabhatta has taken up ___community outreach projects till date, of which __have been consummated and 3 are continuing. Our three running projects are Project Utkarsh, Project Palaash and Project Suvidha. </p>   
+				<p class="lead">Enactus Aryabhatta has taken up 6 community outreach projects till date, of which 3 have been consummated and 3 are continuing. Our three running projects are Project Utkarsh, Project Palaash and Project Suvidha. </p>   
 			</div>
 				
 			<div class="col-md-6" >

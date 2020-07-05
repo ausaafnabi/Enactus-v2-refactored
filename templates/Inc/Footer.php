@@ -6,7 +6,7 @@
             <h3 class="heading-section">Get Connected</h3>
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">Benito Juarez Marg, South Campus, Anand Niketan, New Delhi, Delhi 110021</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 93xxxxxxx1</span></a></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 98113 66233</span></a></li>
                 <li><a href="mailto:enactusaryabhatta@gmail.com"><span class="icon icon-envelope"></span><span class="text">enactusaryabhatta@gmail.com</span></a></li>
               </ul>
             </div>
@@ -70,7 +70,6 @@
   
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
   <script language="JavaScript">
