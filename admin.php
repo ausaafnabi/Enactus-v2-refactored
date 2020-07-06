@@ -4,15 +4,6 @@ require( "config.php" );
 session_start();
 $action = isset( $_GET['action'] ) ? $_GET['action'] : "";
 $username = isset( $_SESSION['username'] ) ? $_SESSION['username'] : "";
-login();
-
-function handleException($exception){
-		echo "a Problem Occurred. Please Try later!";
-		echo $exception->getMessage();
-		
-}
-	
-set_exception_handler('handleException');
 
 if ( $action != "login" && $action != "logout" && !$username ) {
   login();
@@ -29,8 +20,17 @@ switch ( $action ) {
   case 'newArticle':
     newArticle();
     break;
+  case 'newMedia':
+    newMedia();
+    break;
   case 'editArticle':
     editArticle();
+    break;
+  case 'editMedia':
+    editMedia();
+    break;
+  case 'deleteMedia':
+    deleteMedia();
     break;
   case 'deleteArticle':
     deleteArticle();
@@ -176,7 +176,6 @@ function newMedia() {
 
 }
 
-
 function editMedia() {
 
   $results = array();
@@ -224,12 +223,12 @@ function deleteMedia() {
 function listArticles() {
   $results = array();
   $data = Article::getList();
-  $mdata = Media::getList(); 
+  $mdata = Media::getList();
   $results['articles'] = $data['results'];
   $results['media'] = $mdata['results'];
   $results['totalRows'] = $data['totalRows'];
-  $results['totalRowsMedia'] = $mdata['totalRows']
-  $results['pageTitle'] = "Dashboard";
+  $results['totalRowsMedia'] = $mdata['totalRows'];
+  $results['pageTitle'] = "All Articles";
 
   if ( isset( $_GET['error'] ) ) {
     if ( $_GET['error'] == "articleNotFound" ) $results['errorMessage'] = "Error: Article not found.";
@@ -239,19 +238,11 @@ function listArticles() {
   if ( isset( $_GET['status'] ) ) {
     if ( $_GET['status'] == "changesSaved" ) $results['statusMessage'] = "Your changes have been saved.";
     if ( $_GET['status'] == "articleDeleted" ) $results['statusMessage'] = "Article deleted.";
-    if ( $_GET['status'] == "mediaDeleted" ) $results['statusMessage'] = "Media deleted.";
+     if ( $_GET['status'] == "mediaDeleted" ) $results['statusMessage'] = "Media deleted.";
   }
 
   require( TEMPLATE_PATH . "/admin/listArticles.php" );
 }
-
-function handleException($exception){
-		echo "a Problem Occurred. Please Try later!";
-		echo $exception->getMessage();
-		
-	}
-	
-	set_exception_handler('handleException');
 
 ?>
 

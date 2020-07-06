@@ -6,6 +6,7 @@ CREATE TABLE media(
     title VARCHAR(200) NOT NULL,
     imageLink VARCHAR(300),
     summary TEXT NOT NULL,
+    mediaLink LINK NOT NULL,
     publicationDate DATE NOT NULL,
     PRIMARY KEY(id) 
 );

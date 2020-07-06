@@ -28,39 +28,73 @@
 	<div class="container">	
 		<div class="row block-9">
 			<div class="card col-md-5">
-      <h1>All Articles</h1>
-		<?php if ( isset( $results['errorMessage'] ) ) { ?>
-        <div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
-		<?php } ?>
+				<h1>All Articles</h1>
+				<?php if ( isset( $results['errorMessage'] ) ) { ?>
+					<div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
+				<?php } ?>
 
 
-	<?php if ( isset( $results['statusMessage'] ) ) { ?>
-        <div class="statusMessage"><?php echo $results['statusMessage'] ?></div>
-	<?php } ?>
-	<div style="display: block;overflow-y:scroll;height:300px;" class="table-responsive">
-		<table class="table table-hover">
-			<thread>
-				<tr>
-					<th>Publication Date</th>
-					<th>Article</th>
-				</tr>
-			</thread>
+				<?php if ( isset( $results['statusMessage'] ) ) { ?>
+					<div class="statusMessage"><?php echo $results['statusMessage'] ?></div>
+				<?php } ?>
+				<div style="display: block;overflow-y:scroll;height:300px;" class="table-responsive">
+					<table class="table table-hover">
+						<thread>
+						<tr>
+							<th>Publication Date</th>
+							<th>Article</th>
+						</tr>
+						</thread>
 
-			<?php foreach ( $results['articles'] as $article ) { ?>
+						<?php foreach ( $results['articles'] as $article ) { ?>
 
-				<tr onclick="location='admin.php?action=editArticle&amp;articleId=<?php echo $article->id?>'">
-					<td><?php echo date('j M Y', $article->publicationDate)?></td>
-					<td><?php echo $article->title?></td>
-				</tr>
+							<tr onclick="location='admin.php?action=editArticle&amp;articleId=<?php echo $article->id?>'">
+								<td><?php echo date('j M Y', $article->publicationDate)?></td>
+								<td><?php echo $article->title?></td>
+							</tr>
 
-			<?php } ?>
+						<?php } ?>
 
-			</table>
+					</table>
+				</div>
+			<p><?php echo $results['totalRows']?> article<?php echo ( $results['totalRows'] != 1 ) ? 's' : '' ?> in total.</p>
+			<a class="btn btn-primary px-3 px-2" href="admin.php?action=newArticle">Add a New Article</a>
 		</div>
-		<p><?php echo $results['totalRows']?> article<?php echo ( $results['totalRows'] != 1 ) ? 's' : '' ?> in total.</p>
-		<a class="btn btn-primary px-3 px-2" href="admin.php?action=newArticle">Add a New Article</a>
-	  </div>
+		
+		<div class="card col-md-5">
+				<h1>All Media</h1>
+				<?php if ( isset( $results['errorMessage'] ) ) { ?>
+					<div class="errorMessage"><?php echo $results['errorMessage'] ?></div>
+				<?php } ?>
+
+
+				<?php if ( isset( $results['statusMessage'] ) ) { ?>
+					<div class="statusMessage"><?php echo $results['statusMessage'] ?></div>
+				<?php } ?>
+				<div style="display: block;overflow-y:scroll;height:300px;" class="table-responsive">
+					<table class="table table-hover">
+						<thread>
+						<tr>
+							<th>Publication Date</th>
+							<th>Article</th>
+						</tr>
+						</thread>
+
+						<?php foreach ( $results['media'] as $media ) { ?>
+
+							<tr onclick="location='admin.php?action=editMedia&amp;mediaId=<?php echo $media->id?>'">
+								<td><?php echo date('j M Y', $media->publicationDate)?></td>
+								<td><?php echo $media->title?></td>
+							</tr>
+
+						<?php } ?>
+
+					</table>
+				</div>
+			<p><?php echo $results['totalRowsMedia']?> article<?php echo ( $results['totalRowsMedia'] != 1 ) ? 's' : '' ?> in total.</p>
+			<a class="btn btn-primary px-3 px-2" href="admin.php?action=newMedia">Add a New Media</a>
+		</div>
 	</div>
-   </div>
-</div>
+ </div>
+
 <?php include "templates/Inc/Footer.php" ?>

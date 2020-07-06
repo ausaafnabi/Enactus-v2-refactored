@@ -23,7 +23,7 @@
  */
 	ini_set("display_errors", true);
 	date_default_timezone_set("Asia/Calcutta");	
-	define("DB_DSN","mysql:host=root;dbname=enactusAryabhatta");
+	define("DB_DSN","mysql:host=localhost;dbname=enactusAryabhatta");
 	define("DB_USERNAME", "root");
 	define("DB_PASSWORD","A");
 	define("CLASS_PATH","classes");
@@ -32,7 +32,7 @@
 	define("ADMIN_USERNAME","admin");
 	define("ADMIN_PASSWORD","password");
 	require(CLASS_PATH."/Article.php");
-	#require(CLASS_PATH."/Media.php");
+	require(CLASS_PATH."/Media.php");
 	
 	function handleException($exception){
 		echo "a Problem Occurred. Please Try later!";

@@ -33,23 +33,28 @@
 	<!--
 		This is a sample Media page
 	-->
-	<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">
+	
+	<?php foreach($results['media'] as $media) { ?>
+		<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">
 			<div class="card-header" style="padding:0.3rem 0.75rem;">
 				<h2>Publisher</h2>
 			</div>
-			<div class="row no-gutters">
+			
+		<div class="row no-gutters">
 				<div class="col-md-2">
-					<img class="img-responsive" style="width:100%;height:100%;" src="images/successthumbnail.jpeg"  alt="images/black-trans.png">
+					<img class="img-responsive" style="width:100%;height:100%;" <?php echo $media->imageLink; ?>  alt="images/black-trans.png">
 				</div>
 			<div class="col-md-8">
 				<div class="card-body">
-					<h3 class="card-title"><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>">Hello World</a></h3>
+					<h3 class="card-title"><a href=".?action=viewMedia&amp;mediaId=<?php echo $media->id?>">Hello World</a></h3>
 					<p class="card-text" style="color:#000;">too beautiful to imagine it to be true</p>
-					<a class="btn btn-primary" href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>" role="button">More...</a>
+					<a class="btn btn-primary" href=".?action=viewMedia&amp;mediaId=<?php echo $media->id?>" role="button">More...</a>
 				</div>
 			</div>
 		</div>
       </div>
+      <?php }?>
+      
 	
 	<?php foreach($results['articles'] as $article) {?>
 		<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">

@@ -118,7 +118,7 @@ class Media
 
 			// Insert the Media
 			$conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
-			$sql = "INSERT INTO media ( publicationDate, publisherName, title, summary, imageLink ) VALUES ( FROM_UNIXTIME(:publicationDate),:publisherName, :title, :summary, :content )";
+			$sql = "INSERT INTO media ( publicationDate, publisherName, title, summary, imageLink ) VALUES ( FROM_UNIXTIME(:publicationDate),:publisherName, :title, :summary, :imageLink )";
 			$st = $conn->prepare ( $sql );
 			$st->bindValue( ":publicationDate", $this->publicationDate, PDO::PARAM_INT );
 			$st->bindValue( ":publisherName", $this->publisherName, PDO::PARAM_STR );
