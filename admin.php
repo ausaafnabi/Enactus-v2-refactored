@@ -180,7 +180,7 @@ function editMedia() {
 
   $results = array();
   $results['pageTitle'] = "Edit Media";
-  $results['formAction'] = "editmedia";
+  $results['formAction'] = "editMedia";
 
   if ( isset( $_POST['saveChanges'] ) ) {
 
