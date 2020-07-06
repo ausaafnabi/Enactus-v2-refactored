@@ -35,6 +35,11 @@ class Media
 	 public $imageLink = null;
 	 
 	 /**
+	 *  @var string ImageLink for the media
+	 */
+	 public $mediaLink = null;
+	 
+	 /**
 	 * 	Sets the object's properties using the values in the supplied array
 	 *  @param assoc The propertiy values
 	 */
@@ -45,7 +50,20 @@ class Media
 		if(isset($data['publisherName'])) $this->publisherName = preg_replace("/[^\.\,\-\_\'\"\@\?\!\:\$ a-zA-Z0-9()]/","",$data['publisherName']);
 		if(isset($data['title'])) $this->title = preg_replace("/[^\.\,\-\_\'\"\@\?\!\:\$ a-zA-Z0-9()]/","",$data['title']);
 		if(isset($data['summary'])) $this->summary = preg_replace("/[^\.\,\-\_\'\"\@\?\!\:\$ a-zA-Z0-9()]/","",$data['summary']);
-		if(isset($data['imageLink'])) $this->imageLink = $data['imageLink'];
+		if(isset($data['imageLink'])){ 
+			if(preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$data['imageLink'])){
+				$this->imageLink = $data['imageLink'];
+			} else {
+				$this->imageLink = "images/black-trans.png";
+			}
+		}
+		if(isset($data['mediaLink'])){ 
+			if(preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$data['mediaLink'])){
+				$this->mediaLink = $data['mediaLink'];
+			} else {
+				$this->mediaLink = "#";
+			}
+		}
 	 }
 	 
 	  /**
@@ -118,13 +136,14 @@ class Media
 
 			// Insert the Media
 			$conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
-			$sql = "INSERT INTO media ( publicationDate, publisherName, title, summary, imageLink ) VALUES ( FROM_UNIXTIME(:publicationDate),:publisherName, :title, :summary, :imageLink )";
+			$sql = "INSERT INTO media ( publicationDate, publisherName, title, summary, imageLink, mediaLink ) VALUES ( FROM_UNIXTIME(:publicationDate),:publisherName, :title, :summary, :imageLink,:mediaLink )";
 			$st = $conn->prepare ( $sql );
 			$st->bindValue( ":publicationDate", $this->publicationDate, PDO::PARAM_INT );
 			$st->bindValue( ":publisherName", $this->publisherName, PDO::PARAM_STR );
 			$st->bindValue( ":title", $this->title, PDO::PARAM_STR );
 			$st->bindValue( ":summary", $this->summary, PDO::PARAM_STR );
 			$st->bindValue( ":imageLink", $this->imageLink, PDO::PARAM_STR );
+			$st->bindValue(":mediaLink", $this->mediaLink,PDO::PARAM_STR);
 			$st->execute();
 			$this->id = $conn->lastInsertId();
 			$conn = null;
@@ -142,13 +161,14 @@ class Media
    
 			// Update the Media
 			$conn = new PDO( DB_DSN, DB_USERNAME, DB_PASSWORD );
-			$sql = "UPDATE media SET publicationDate=FROM_UNIXTIME(:publicationDate),publisherName=:publisherName title=:title, summary=:summary, imageLink=:imageLink WHERE id = :id";
+			$sql = "UPDATE media SET publicationDate=FROM_UNIXTIME(:publicationDate),publisherName=:publisherName, title=:title, summary=:summary, imageLink=:imageLink, mediaLink=:mediaLink WHERE id=:id";
 			$st = $conn->prepare ( $sql );
 			$st->bindValue( ":publicationDate", $this->publicationDate, PDO::PARAM_INT );
 			$st->bindValue( ":publisherName", $this->publisherName, PDO::PARAM_STR );
 			$st->bindValue( ":title", $this->title, PDO::PARAM_STR );
 			$st->bindValue( ":summary", $this->summary, PDO::PARAM_STR );
 			$st->bindValue( ":imageLink", $this->imageLink, PDO::PARAM_STR );
+			$st->bindValue( ":mediaLink", $this->mediaLink, PDO::PARAM_STR);
 			$st->bindValue( ":id", $this->id, PDO::PARAM_INT );
 			$st->execute();
 			$conn = null;

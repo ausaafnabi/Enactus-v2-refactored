@@ -76,7 +76,7 @@
 						<thread>
 						<tr>
 							<th>Publication Date</th>
-							<th>Article</th>
+							<th>Media</th>
 						</tr>
 						</thread>
 

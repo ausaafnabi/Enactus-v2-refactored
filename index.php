@@ -95,11 +95,12 @@ function Story() {
 
 function Media() {
   $results = array();
-  $data = Article::getList( HOMEPAGE_NUM_ARTICLES );
-  $results['articles'] = $data['results'];
+  $data = Media::getList( HOMEPAGE_NUM_ARTICLES );
+  $results['media'] = $data['results'];
   $results['totalRows'] = $data['totalRows'];
-  $results['pageTitle'] = "Stories";
+  $results['pageTitle'] = "Media";
   require( TEMPLATE_PATH . "/MediaPage.php" );
+  
 }
 
 

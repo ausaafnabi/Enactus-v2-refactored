@@ -187,7 +187,7 @@ function editMedia() {
     // User has posted the article edit form: save the article changes
 
     if ( !$media = Media::getById( (int)$_POST['mediaId'] ) ) {
-      header( "Location: admin.php?error=articleNotFound" );
+      header( "Location: admin.php?error=mediaNotFound" );
       return;
     }
 

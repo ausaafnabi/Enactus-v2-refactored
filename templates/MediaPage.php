@@ -1,4 +1,4 @@
-<?php include 'templates/Inc/Header.php'?>
+<?php include 'Inc/Header.php'?>
 
 <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
@@ -37,26 +37,26 @@
 	<?php foreach($results['media'] as $media) { ?>
 		<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">
 			<div class="card-header" style="padding:0.3rem 0.75rem;">
-				<h2>Publisher</h2>
+				<h2><?php echo htmlspecialchars($media->publisherName) ?></h2>
 			</div>
 			
 		<div class="row no-gutters">
 				<div class="col-md-2">
-					<img class="img-responsive" style="width:100%;height:100%;" <?php echo $media->imageLink; ?>  alt="images/black-trans.png">
+					<img class="img-responsive" style="width:100%;height:100%;" src="<?php echo $media->imageLink; ?>"  alt="images/black-trans.png">
 				</div>
 			<div class="col-md-8">
 				<div class="card-body">
-					<h3 class="card-title"><a href=".?action=viewMedia&amp;mediaId=<?php echo $media->id?>">Hello World</a></h3>
-					<p class="card-text" style="color:#000;">too beautiful to imagine it to be true</p>
-					<a class="btn btn-primary" href=".?action=viewMedia&amp;mediaId=<?php echo $media->id?>" role="button">More...</a>
+					<h3 class="card-title"><a href="<?php echo $media->mediaLink ?>"><?php echo htmlspecialchars($media->title) ?></a></h3>
+					<p class="card-text" style="color:#000;"><?php echo htmlspecialchars($media->summary) ?></p>
+					<a class="btn btn-primary" href="<?php echo $media->mediaLink ?>" role="button">More...</a>
 				</div>
 			</div>
 		</div>
       </div>
       <?php }?>
       
-	
-	<?php foreach($results['articles'] as $article) {?>
+	<!--
+	//<?php foreach($results['articles'] as $article) {?>
 		<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">
 			<div class="row no-gutters">
 				<div class="col-md-2">
@@ -71,12 +71,12 @@
 			</div>
 		</div>
       </div>
-	<?php } ?>
-
+	//<?php } ?>
+	-->
 
   </div>
  </div>
 </div>  
 
 
-<?php include 'templates/Inc/Footer.php' ?>
+<?php include 'Inc/Footer.php' ?>
