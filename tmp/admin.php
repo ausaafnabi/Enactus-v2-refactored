@@ -20,17 +20,8 @@ switch ( $action ) {
   case 'newArticle':
     newArticle();
     break;
-  case 'newMedia':
-    newMedia();
-    break;
   case 'editArticle':
     editArticle();
-    break;
-  case 'editMedia':
-    editMedia();
-    break;
-  case 'deleteMedia':
-    deleteMedia();
     break;
   case 'deleteArticle':
     deleteArticle();
@@ -176,18 +167,19 @@ function newMedia() {
 
 }
 
+
 function editMedia() {
 
   $results = array();
   $results['pageTitle'] = "Edit Media";
-  $results['formAction'] = "editMedia";
+  $results['formAction'] = "editmedia";
 
   if ( isset( $_POST['saveChanges'] ) ) {
 
     // User has posted the article edit form: save the article changes
 
     if ( !$media = Media::getById( (int)$_POST['mediaId'] ) ) {
-      header( "Location: admin.php?error=mediaNotFound" );
+      header( "Location: admin.php?error=articleNotFound" );
       return;
     }
 
@@ -223,12 +215,12 @@ function deleteMedia() {
 function listArticles() {
   $results = array();
   $data = Article::getList();
-  $mdata = Media::getList();
+  $mdata = Media::getList(); 
   $results['articles'] = $data['results'];
   $results['media'] = $mdata['results'];
   $results['totalRows'] = $data['totalRows'];
-  $results['totalRowsMedia'] = $mdata['totalRows'];
-  $results['pageTitle'] = "All Articles";
+  $results['totalRowsMedia'] = $mdata['totalRows']
+  $results['pageTitle'] = "Dashboard";
 
   if ( isset( $_GET['error'] ) ) {
     if ( $_GET['error'] == "articleNotFound" ) $results['errorMessage'] = "Error: Article not found.";
@@ -238,7 +230,7 @@ function listArticles() {
   if ( isset( $_GET['status'] ) ) {
     if ( $_GET['status'] == "changesSaved" ) $results['statusMessage'] = "Your changes have been saved.";
     if ( $_GET['status'] == "articleDeleted" ) $results['statusMessage'] = "Article deleted.";
-     if ( $_GET['status'] == "mediaDeleted" ) $results['statusMessage'] = "Media deleted.";
+    if ( $_GET['status'] == "mediaDeleted" ) $results['statusMessage'] = "Media deleted.";
   }
 
   require( TEMPLATE_PATH . "/admin/listArticles.php" );

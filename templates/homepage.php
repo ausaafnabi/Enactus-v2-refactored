@@ -1,7 +1,7 @@
 <?php include 'Inc/Header.php'?>
 <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 block-30-sm item" style="background-image: url('images/07-min.JPG');" data-stellar-background-ratio="0.5">
+      <div class="block-30 block-30-sm item" style="background-image: url('images/homepage_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
@@ -21,7 +21,26 @@
           </div>
         </div>
       </div>
-       
+      <div class="block-30 block-30-sm item" style="background-image: url('images/homepage_2.jpeg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-7">
+              <h2 class="heading mb-5">We Believe in Social Entrepreneurship.</h2>
+              <p style="display: inline-block;"><a href="https://youtu.be/C51HeXHFByk"  data-fancybox class="ftco-play-video d-flex"><span class="play-icon-wrap align-self-center mr-4"><span class="ion-ios-play"></span></span> <span class="align-self-center">Watch Video</span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-30 block-30-sm item" style="background-image: url('images/07-min.JPG');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-7">
+              <h2 class="heading mb-5">We Believe in Social Entrepreneurship.</h2>
+              <p style="display: inline-block;"><a href="https://youtu.be/C51HeXHFByk"  data-fancybox class="ftco-play-video d-flex"><span class="play-icon-wrap align-self-center mr-4"><span class="ion-ios-play"></span></span> <span class="align-self-center">Watch Video</span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="site-section section-counter">
@@ -31,7 +50,7 @@
           <div class="block-48">
               <span class="block-48-text-1">Team Members</span>
               <div class="block-48-counter ftco-number" data-number="75">0</div>
-              <span class="block-48-text-1 mb-4 d-block">Working on <span class="ftco-number" data-number="4">0</span> Projects.</span>
+              <span class="block-48-text-1 mb-4 d-block">Working on <span class="ftco-number" data-number="3">0</span> Projects.</span>
               <p class="mb-0"><a href=".?action=Projects" class="btn btn-white px-3 py-2">View Our Program</a></p>
             </div>
         </div>
@@ -110,7 +129,7 @@
                 <h3 class="card-title"><a href=".?action=Utkarsh">Project Utkarsh</a></h3>
                 <p class="card-text">Project Utkarsh simultaneously tackles the problems including Gender Bias, Food Wastage and Surge of Fast Food Consumption by employing underprivileged women and utilising the unused portions of fruits and vegetables procured from juice shops or Safal outlets to produce healthy chips, preventing food wastage and generating a healthier snacking alternative taking into consideration the rise in health issues of the consumers. </p>
                 <div class="progress custom-progress-success">
-                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <span class="fund-raised d-block">IMPACT</span>
               </div>
@@ -121,9 +140,9 @@
                 <h3 class="card-title"><a href=".?action=Palaash">Project Palaash</a></h3>
                 <p class="card-text">Sacred offerings in temples to major water pollutants, such is the story of floral waste in India. Project Palaash tackles the problem of poor waste management in urban temples by collecting flower offerings and using them to naturally dye fabrics in a 100% sustainable manner, and providing a constant source of income and employment opportunities to people living in poor conditions.</p>
                 <div class="progress custom-progress-success">
-                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <span class="fund-raised d-block">IMPACT</span>
+                <span class="fund-raised d-block">IMPLEMENTATION</span>
               </div>
             </div>   
             <div class="card fundraise-item">
@@ -132,9 +151,9 @@
                 <h3 class="card-title"><a href=".?action=Suvidha">Project Suvidha</a></h3>
                 <p class="card-text">the problems prevailing due to COVID-19, we came up with ‘Project Suvidha’. This project will help not only the unemployed labour of the country, but will also benefit the shopkeepers whose businesses are on a decline. We aim to achieve this through an efficient communication system constituting of local grocery stores and nearby households where people can easily order essentials.</p>
                 <div class="progress custom-progress-success">
-                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <span class="fund-raised d-block">IMPACT</span>
+                <span class="fund-raised d-block">INITIAL</span>
               </div>
             </div>   
            

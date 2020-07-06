@@ -8,10 +8,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Enactus Aryabhatta</title>
+    <title>Enactus Aryabhatta | We Believe in Social Entrepreneurship</title>
     <meta charset="utf-8">
+    <meta name="description" content="Enactus Aryabhatta is a students society that has worked towards bringing about a formidable change in the lives of various under-privileged sections of the society while concurrently developing entrepreneurial leaders and social innovators of tomorrow.">
+
+    <meta name="keywords" content="Enactus Aryabhatta, enactus aryabhatta, aryabhatta college, aryabhatta , enactus, enactus india , Enactus , Enactus India, Enactus Worldwide">
+    
+    <meta name="author" content="Ausaaf Nabi">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="icon" href="images/0.png" type="image/icon type">
+
+    <meta name="google-site-verification" content="uoWZe6TVylfF4P5yC_UWg13XqJgbm4IxTO5Z78K9zOU" />
+    
+    <link rel="shortcut icon" href="images/0.png" type="image/icon type">
     <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,500|Dosis:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -43,6 +52,7 @@
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'index.php') !== false){ echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href="index.php" class="nav-link">Home</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'About') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=About" class="nav-link">About Us</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Team') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Team" class="nav-link">Team</a></li>
+          <li <?php if (stripos($_SERVER['REQUEST_URI'],'Media') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Media" class="nav-link">Media</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Projects') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Projects" class="nav-link">Projects</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'SuccessStories') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=SuccessStories" class="nav-link">Success Stories</a></li>
           <li <?php if (stripos($_SERVER['REQUEST_URI'],'Contact') !== false) { echo "class='nav-item active'";} else { echo "class='nav-item'";} ?>><a href=".?action=Contact" class="nav-link">Contact Us</a></li>

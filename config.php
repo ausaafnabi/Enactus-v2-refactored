@@ -32,10 +32,12 @@
 	define("ADMIN_USERNAME","admin");
 	define("ADMIN_PASSWORD","password");
 	require(CLASS_PATH."/Article.php");
+	require(CLASS_PATH."/Media.php");
 	
 	function handleException($exception){
 		echo "a Problem Occurred. Please Try later!";
 		error_log($exception->getMessage());
+		
 	}
 	
 	set_exception_handler('handleException');

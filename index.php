@@ -19,6 +19,9 @@ switch ( $action ) {
   case 'Contact':
 	Contact();
 	break;
+  case 'Media':
+	Media();
+	break;
   case 'Projects':
 	Projects();
 	break;
@@ -89,6 +92,18 @@ function Story() {
   $results['pageTitle'] = "Stories";
   require( TEMPLATE_PATH . "/Story.php" );
 }
+
+function Media() {
+  $results = array();
+  $data = Media::getList( HOMEPAGE_NUM_ARTICLES );
+  $results['media'] = $data['results'];
+  $results['totalRows'] = $data['totalRows'];
+  $results['pageTitle'] = "Media";
+  require( TEMPLATE_PATH . "/MediaPage.php" );
+  
+}
+
+
 function homepage() {
   $results = array();
   $data = Article::getList( HOMEPAGE_NUM_ARTICLES );

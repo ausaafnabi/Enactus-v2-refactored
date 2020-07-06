@@ -1,7 +1,16 @@
 <?php include "templates/Inc/Header.php" ?>
   <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 block-30-sm item" style="background-image: url('images/Team.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 block-30-sm item" style="background-image: url('images/core_team.jpeg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-12">
+              <h2 class="heading mb-5">TEAM</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+	<div class="block-30 block-30-sm item" style="background-image: url('images/Team.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-12">
@@ -25,7 +34,7 @@
           </div>
           <div class="col-md-6">
             <p>To foster the holistic development of our team, we hold a number of Community Sessions, wherein, we engage with the localities and merge our entrepreneurial ideas to tackle innumerable social issues faced by the community. Thereby, advancing our work towards improving lives, strengthening communities and developing a sustainable society. </p>
-            <p>The team of Enactus Aryabhatta has upheld ___ Community outreach projects with <strong>140+</strong> students working for a total of <strong>7000+</strong>  Community hours. These projects had around <strong>800+</strong> lives impacted annually. </p>
+            <p>The team of Enactus Aryabhatta has upheld 6 Community outreach projects with <strong>140+</strong> students working for a total of <strong>7000+</strong>  Community hours. These projects had around <strong>800+</strong> lives impacted annually. </p>
           </div>
       </div>
       
