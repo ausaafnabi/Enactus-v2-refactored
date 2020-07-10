@@ -53,27 +53,7 @@
 			</div>
 		</div>
       </div>
-      <?php }?>
-      
-	<!--
-	//<?php foreach($results['articles'] as $article) {?>
-		<div class="card mb-4 text-white" style="max-width: 1200px;color:#000;margin:1rem;">
-			<div class="row no-gutters">
-				<div class="col-md-2">
-					<img class="img-responsive" style="width:100%;height:100%;" <?php if($article->id==1){ echo 'src="images/successthumbnail.jpeg"';} elseif($article->id==2){echo 'src="images/successutkarsh.jpeg"';} else{echo 'src="images/black-trans.png"';}?> alt="images/black-trans.png">
-				</div>
-			<div class="col-md-8">
-				<div class="card-body">
-					<h3 class="card-title"><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>"><?php echo htmlspecialchars($article->title) ?></a></h3>
-					<p class="card-text" style="color:#000;"><?php echo htmlspecialchars($article->summary) ?></p>
-					<a class="btn btn-primary" href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>" role="button">More...</a>
-				</div>
-			</div>
-		</div>
-      </div>
-	//<?php } ?>
-	-->
-
+      <?php }?>    
   </div>
  </div>
 </div>  

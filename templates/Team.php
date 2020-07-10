@@ -42,24 +42,24 @@
         <div class="col-md-12 mb-5 text-center mt-5">
           <h2>Core Members</h2>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="block-38 text-center">
-            <div class="block-38-img">
-              <div class="block-38-header">
-                <img src="images/thumbnail/Sarthak.png" alt="Image placeholder" class="rounded-circle" style="width:230px;height:225px" >
-                <h3 class="block-38-heading">Sarthak Malhotra</h3>
-                <p class="block-38-subheading">Co-President</p>
-              </div>
-            </div>
-          </div>
-        </div>
          <div class="col-md-6 col-lg-3">
           <div class="block-38 text-center">
             <div class="block-38-img">
               <div class="block-38-header">
                 <img src="images/thumbnail/Ayush.png" alt="Image placeholder" class="rounded-circle" style="width:230px;height:225px">
                 <h3 class="block-38-heading">Ayush Nanda</h3>
-                <p class="block-38-subheading">Co-President</p>
+                <p class="block-38-subheading">President</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="block-38 text-center">
+            <div class="block-38-img">
+              <div class="block-38-header">
+                <img src="images/thumbnail/Sarthak.png" alt="Image placeholder" class="rounded-circle" style="width:230px;height:225px" >
+                <h3 class="block-38-heading">Sarthak Malhotra</h3>
+                <p class="block-38-subheading">Vice President</p>
               </div>
             </div>
           </div>
