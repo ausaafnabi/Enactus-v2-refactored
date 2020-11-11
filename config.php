@@ -28,7 +28,7 @@
 	define("DB_PASSWORD","A");
 	define("CLASS_PATH","classes");
 	define("TEMPLATE_PATH","templates");
-	define("HOMEPAGE_NUM_ARTICLES",5);
+	define("HOMEPAGE_NUM_ARTICLES",15);
 	define("ADMIN_USERNAME","admin");
 	define("ADMIN_PASSWORD","password");
 	require(CLASS_PATH."/Article.php");
